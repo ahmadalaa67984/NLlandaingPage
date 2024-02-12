@@ -1,0 +1,61 @@
+
+
+.nav-container
+{
+    height:84px;
+    background-color:#F3F3F3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.nav-links 
+{
+    text-align: center;
+}
+.nav-links a
+{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.nav-links a:hover
+{
+    color: #3B2E8C;
+}
+.nav-container div button
+{
+    margin-right:10px;
+}
+.nav-container .nav-out-btn
+{
+    border:1px solid #3B2E8C;
+    color:#3B2E8C;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-container .btn-nav-primary
+{
+    color: #F3F3F3;
+    background-color:#3B2E8C;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border:1px solid #3B2E8C;
+}
+.nav-container .nav-out-btn:hover
+{
+    color: #F3F3F3;
+    background-color:#3B2E8C;
+    transition: all 0.3s ease;
+}
+.nav-container .btn-nav-primary:hover
+{
+    color: #3B2E8C;
+    background-color:#F3F3F3;
+    transition: all 0.3s ease;
+}

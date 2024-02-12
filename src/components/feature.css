@@ -1,0 +1,32 @@
+.feature-container
+{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature-container .feature-card
+{
+    height: 320px;
+    border: .5px solid rgba(44, 44, 44, 0.089);
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.feature-container .feature-card .feature-card-image
+{
+    height:46px;
+    width:46px;
+    background:#674FC2;
+    border-radius: 5px;
+}
+.feature-container .feature-card .feature-card-image .feature-card-icon
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

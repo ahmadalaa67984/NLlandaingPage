@@ -1,0 +1,54 @@
+.header-container{
+    height: 100vh;
+    background: #e9e9e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./image.svg) no-repeat center;
+    z-index: 10000000;
+}
+.header-container .first-text
+{
+    font-size: 50px;
+    font-weight: 520;
+    margin-top: 144px;
+}
+.header-container .second-text h1
+{
+    font-size: 50px;
+    font-weight: 520;
+    background: linear-gradient(to right, #9383CE , #DB665A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header-container .my-button
+{
+    width:314px;
+    height:62px;
+    border-radius: 30px;
+    background: #3B2E8C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 40px;
+    transition: all 0.3s ease ;
+}
+.header-container .my-button:hover
+{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.header-container .third-text
+{
+    color: #08041f9f;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.gradinat-background
+{
+    background:
+      linear-gradient(rgba(233, 231, 231, 0.514),rgba(233, 231, 231, 0.514)),
+      url('noise.svg');
+}

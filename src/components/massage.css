@@ -1,0 +1,45 @@
+.massage-container 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    bottom: 40px;
+    transform: translateX(515px) ;
+}
+ .massage-container .inside-massage
+{
+    display: flex;
+    height: 85px;
+    width: 454px;
+    background-color: #ffffff88;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+}
+.inside-massage .group-icon
+{
+    font-size: 50px;
+    padding-left: 10px;
+}
+.inside-massage .group-text
+{
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: normal;
+    flex: 1;
+}
+.inside-massage .group-text span
+{
+    font-size: 10px;
+}
+.visible {
+    transform: translateX(-40px)
+  }
+  
+  .message-box.hidden {
+    transform: translateX(515px) ;
+  }
