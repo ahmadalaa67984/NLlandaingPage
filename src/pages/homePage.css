@@ -1,0 +1,6 @@
+.Home-Page
+{
+    background:
+    linear-gradient(rgba(247, 247, 247, 0.671),rgba(247, 247, 247, 0.671)),
+    url('../components/noise.svg');
+}

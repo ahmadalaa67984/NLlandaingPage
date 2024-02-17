@@ -3,6 +3,7 @@ import "./navbar.css"
 import { faEarth, faGear } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link, Element } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
 
 function Navbar() {
 
@@ -44,7 +45,9 @@ function Navbar() {
         </div>
         <div>
         <button  type="button" class="nav-out-btn" disabled>Sign in</button>
-        <button  type="button" class="btn-nav-primary" disabled>free trial</button>
+        <button  type="button" class="btn-nav-primary" disabled>
+            <RouterLink to='/dash' style={{textDecoration:"none",color:"white"}}>free trial</RouterLink>    
+        </button>
         <FontAwesomeIcon  style={{marginLeft:"15px",color:"#3B2E8C"}} icon={faEarth} />
         </div>
     </div>

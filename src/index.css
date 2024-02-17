@@ -6,9 +6,6 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:
-      linear-gradient(rgba(247, 247, 247, 0.671),rgba(247, 247, 247, 0.671)),
-      url('./components/noise.svg');
   overflow-x: hidden;
 }
 

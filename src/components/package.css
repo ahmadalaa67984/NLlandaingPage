@@ -2,9 +2,10 @@
 {
     display: flex;
     width:80%;
-    margin: 30px auto;
+    margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom:60px ;
 }
 .package-price-card
 {

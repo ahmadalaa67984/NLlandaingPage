@@ -1,0 +1,88 @@
+.addPerson-container
+{
+    height: 100vh;
+    width :100vw;
+    background-color: rgba(58, 58, 58, 0.548);
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addPerson-container .adding-page
+{
+    background-color: rgb(253, 253, 253);
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.addPerson-container .adding-page .create-header
+{
+    height: 50px;
+    font-weight: 700;
+    flex:1;
+    background-color: #3B2E8C;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    padding: 30px;
+}
+.addPerson-container .adding-page .contact-body
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 30px;
+    font-weight: 600;
+}
+.addPerson-container .adding-page .contact-body div
+{
+    padding: 5px;
+}
+.addPerson-container .adding-page .contact-body  input,select
+{
+    width: 230px;
+    height:26px;
+    margin-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #3B2E8C;
+}
+.contact-input-row {
+    justify-content:space-around;
+    
+}
+.add-cont-buttons
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.add-cont-buttons .create-btn
+{
+    border-radius: 5px;
+    background-color: #3B2E8C;
+    color: #fff;
+    padding: 5px 15px;
+    border: 1px solid #fff;
+}
+.add-cont-buttons .rest-btn
+{
+    border-radius: 5px;
+    background-color:rgb(226, 224, 255) ;
+    color: #3B2E8C;
+    padding: 5px 15px;
+    border: 1px solid #3B2E8C;
+}
